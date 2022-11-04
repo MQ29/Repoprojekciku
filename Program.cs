@@ -1,2 +1,24 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Witaj Aneto");
+﻿using System;
+namespace Projekcik
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Czlowiek mati = new Czlowiek();
+            mati.PrzedstawSie();
+            mati.imie = "Medrzec";
+            mati.PrzedstawSie();
+
+
+
+
+
+
+        }
+
+    }
+
+
+
+}
