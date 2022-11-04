@@ -5,11 +5,10 @@ namespace Projekcik
     {
         static void Main(string[] args)
         {
-            Czlowiek mati = new Czlowiek();
-            mati.PrzedstawSie();
-            mati.imie = "Medrzec";
-            mati.PrzedstawSie();
-
+            car car1 = new car("blue", "ford", 1990);
+            car car2 = new car("red", "ferrari", 2003);
+            car1.drive();
+            car2.drive();
 
 
 
