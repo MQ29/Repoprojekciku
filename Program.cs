@@ -6,9 +6,9 @@ namespace Projekcik
         static void Main(string[] args)
         {
             System.Console.WriteLine("kurwa");
-            string[] cars = { "ford", "opel", "audi", "honda" };
+            string[] cars = { "ford", "opel", "audi", "honda" }; //tworzymy tabele cars 
 
-            for (int i = 0; i < cars.Length; i++)
+            for (int i = 0; i < cars.Length; i++) // for(index czyli "i"; dopoki i jest mniejsze od ilosci elementow w tablicy CARS ;inkrementacja)
             {
                 int rank = i + 1;
                 System.Console.WriteLine(rank + "." + cars[i]);
